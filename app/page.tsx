@@ -47,7 +47,6 @@ export default async function HomePage() {
     instructor: {
       name: ["Sarah Johnson", "Michael Chen", "Emily Rodriguez", "David Thompson,"][Math.floor(Math.random() * 4)],
       title: "Senior Developer",
-      avatar: "/placeholder.svg?height=40&width=40",
     },
     
     image: "/course-images/tware-developer.jpg",
@@ -447,12 +446,12 @@ export default async function HomePage() {
                         {/* Instructor */}
                         <div className="flex items-center gap-3">
                           <Avatar className="h-10 w-10 ring-2 ring-yellow-100">
-                            <AvatarImage
+                            {/* <AvatarImage
                               src={
                                 courseData.instructor.avatar ||
                                 "/placeholder.svg"
                               }
-                            />
+                            /> */}
                             <AvatarFallback className="bg-yellow-400 text-black">
                               {courseData.instructor.name.charAt(0)}
                             </AvatarFallback>
