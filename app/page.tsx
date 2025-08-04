@@ -369,7 +369,7 @@ export default async function HomePage() {
                         <div className="relative aspect-video ">
                           {/* Animated Background Pattern */}
                           <img
-                            src={course.image}
+                            src={course.image || "/course-images/tware-developer.jpg"}
                             alt={course.title}
                             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                 />

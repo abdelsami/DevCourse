@@ -67,7 +67,7 @@ export async function createOrder(data: z.infer<typeof orderSchema>) {
 
         return {
             success: true,
-            orderId: order.id,
+            orderId: order.Id,
             message: "Order created successfully",
         }
     } catch (error) {

@@ -20,7 +20,7 @@ model Course {
   category      String
   level         String
   duration      String
-  image         String
+  image         String?
   createdAt     DateTime @default(now())
 }
 
