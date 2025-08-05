@@ -25,7 +25,6 @@ import {
   Clock,
   MessageCircle,
   HelpCircle,
-  Briefcase,
   Send,
 } from "lucide-react";
 import Link from "next/link";
@@ -70,7 +69,7 @@ export default function ContactPage() {
     },
     {
       city: "Remote",
-      address: "We're a remote-first company",
+      address: "We`re a remote-first company",
       zipCode: "Work from anywhere",
       phone: "Same great support",
     },
@@ -134,12 +133,12 @@ export default function ContactPage() {
             <span className="text-sm font-medium">Get in Touch</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            We'd Love to
+            We`d Love to
             <span className="block text-yellow-600">Hear From You</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Have questions about our courses? Need help with your account? Want
-            to partner with us? We're here to help and would love to connect
+            to partner with us? We`re here to help and would love to connect
             with you.
           </p>
         </div>
@@ -151,7 +150,7 @@ export default function ContactPage() {
               <CardHeader>
                 <CardTitle className="text-2xl">Send Us a Message</CardTitle>
                 <CardDescription>
-                  Fill out the form below and we'll get back to you within 24
+                  Fill out the form below and we`ll get back to you within 24
                   hours.
                 </CardDescription>
               </CardHeader>
@@ -338,12 +337,12 @@ export default function ContactPage() {
               {
                 question: "How do I access my courses after purchase?",
                 answer:
-                  "Once you complete your purchase, you'll receive an email with login credentials. You can access all your courses through your student dashboard.",
+                  "Once you complete your purchase, you`ll receive an email with login credentials. You can access all your courses through your student dashboard.",
               },
               {
                 question: "Do you offer refunds?",
                 answer:
-                  "Yes! We offer a 30-day money-back guarantee on all courses. If you're not satisfied, contact us for a full refund.",
+                  "Yes! We offer a 30-day money-back guarantee on all courses. If you`re not satisfied, contact us for a full refund.",
               },
               {
                 question: "Can I download course materials?",
@@ -353,17 +352,17 @@ export default function ContactPage() {
               {
                 question: "Do you offer corporate training?",
                 answer:
-                  "We provide custom corporate training solutions. Contact our business team to discuss your organization's needs.",
+                  "We provide custom corporate training solutions. Contact our business team to discuss your organization`s needs.",
               },
               {
                 question: "Are certificates provided?",
                 answer:
-                  "Yes, you'll receive a certificate of completion for each course you finish. These can be shared on LinkedIn and other platforms.",
+                  "Yes, you`ll receive a certificate of completion for each course you finish. These can be shared on LinkedIn and other platforms.",
               },
               {
                 question: "How do I become an instructor?",
                 answer:
-                  "We're always looking for expert instructors! Send us your proposal and teaching experience through our careers page.",
+                  "We`re always looking for expert instructors! Send us your proposal and teaching experience through our careers page.",
               },
             ].map((faq, index) => (
               <Card key={index} className="border-0 shadow-lg">
@@ -380,7 +379,7 @@ export default function ContactPage() {
 
           <div className="text-center mt-8">
             <p className="text-gray-600 mb-4">
-              Can't find what you're looking for?
+              Can`t find what you`re looking for?
             </p>
             <Link href="/help">
               <Button
@@ -404,7 +403,7 @@ export default function ContactPage() {
                             <span className="block text-yellow-400">Partnership Opportunities?</span>
                         </h2>
                         <p className="text-xl text-gray-300">
-                            We're always looking for strategic partnerships, corporate training opportunities, and collaboration with
+                            We`re always looking for strategic partnerships, corporate training opportunities, and collaboration with
                             educational institutions.
                         </p>
                         <Button size="lg" className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-6 text-lg">

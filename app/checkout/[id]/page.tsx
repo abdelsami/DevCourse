@@ -5,5 +5,6 @@ export default function CheckoutPage({
 }: {
   params: Promise<{ id: string }>;
 }) {
+
   return <CheckoutWrapper params={params} />;
 }

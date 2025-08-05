@@ -1,0 +1,36 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "./lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Course {
+  id            String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  title         String
+  ref           Int
+  price         Float
+  originalPrice Float
+  description   String
+  category      String
+  level         String
+  duration      String
+  image         String?
+  createdAt     DateTime @default(now()) @db.Timestamp(6)
+}
+
+model orders {
+  Id            String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  courseId      String   @db.Uuid
+  fullName      String
+  phone         String
+  email         String
+  notes         String
+  paymentMethod String
+  amount        Int
+  status        String
+  createdAt     DateTime @default(now()) @db.Timestamp(6)
+}

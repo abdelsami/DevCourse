@@ -220,18 +220,3 @@ html {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
-.borderr {
-  border: 1px solid #ccc; /* lighter grey for a softer border */
-  border-radius: 8px;      /* slightly bigger radius for smoother corners */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* subtle shadow */
-  background-color: #fafafa; /* very light grey background */
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-.borderr:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  transform: translateY(-4px);
-}
-.bg-ca{
-  background-color: #cacaca;
-}

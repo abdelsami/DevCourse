@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Play, Users, Star, Target, Heart, Zap, Award, Globe, Code, BookOpen, TrendingUp, Shield } from "lucide-react"
@@ -141,14 +140,14 @@ export default function AboutPage() {
                                 <div className="space-y-4 text-gray-600">
                                     <p>
                                         Founded in 2020 by a team of passionate developers and educators, DevCourses emerged from the
-                                        recognition that traditional education wasn't keeping pace with the rapidly evolving tech industry.
+                                        recognition that traditional education wasn`t keeping pace with the rapidly evolving tech industry.
                                     </p>
                                     <p>
                                         We saw talented individuals struggling to break into tech or advance their careers due to lack of
-                                        access to practical, up-to-date training. That's when we decided to bridge this gap.
+                                        access to practical, up-to-date training. That`s when we decided to bridge this gap.
                                     </p>
                                     <p>
-                                        Today, we're proud to have helped thousands of students worldwide achieve their career goals through
+                                        Today, we`re proud to have helped thousands of students worldwide achieve their career goals through
                                         our comprehensive, hands-on courses taught by industry experts.
                                     </p>
                                 </div>

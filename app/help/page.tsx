@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
+  // CardDescription,
+  // CardHeader,
+  // CardTitle,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
@@ -18,7 +18,6 @@ import {
   MessageCircle,
   Phone,
   Mail,
-  Clock,
   ChevronRight,
   HelpCircle,
   Video,
@@ -73,38 +72,38 @@ export default function HelpPage() {
     },
   ];
 
-  const popularArticles = [
-    {
-      title: "How to access my purchased courses",
-      category: "Course Access",
-      views: "15.2k views",
-    },
-    {
-      title: "Downloading course materials and videos",
-      category: "Downloads & Resources",
-      views: "12.8k views",
-    },
-    {
-      title: "How to request a refund",
-      category: "Billing & Payments",
-      views: "9.5k views",
-    },
-    {
-      title: "Troubleshooting video playback issues",
-      category: "Technical Issues",
-      views: "8.1k views",
-    },
-    {
-      title: "How to update my profile information",
-      category: "Account Management",
-      views: "7.3k views",
-    },
-    {
-      title: "Getting started with your first course",
-      category: "Getting Started",
-      views: "6.9k views",
-    },
-  ];
+  // const popularArticles = [
+  //   {
+  //     title: "How to access my purchased courses",
+  //     category: "Course Access",
+  //     views: "15.2k views",
+  //   },
+  //   {
+  //     title: "Downloading course materials and videos",
+  //     category: "Downloads & Resources",
+  //     views: "12.8k views",
+  //   },
+  //   {
+  //     title: "How to request a refund",
+  //     category: "Billing & Payments",
+  //     views: "9.5k views",
+  //   },
+  //   {
+  //     title: "Troubleshooting video playback issues",
+  //     category: "Technical Issues",
+  //     views: "8.1k views",
+  //   },
+  //   {
+  //     title: "How to update my profile information",
+  //     category: "Account Management",
+  //     views: "7.3k views",
+  //   },
+  //   {
+  //     title: "Getting started with your first course",
+  //     category: "Getting Started",
+  //     views: "6.9k views",
+  //   },
+  // ];
 
   const contactOptions = [
     {

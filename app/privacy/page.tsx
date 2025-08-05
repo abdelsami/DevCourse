@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+// import { Badge } from "@/components/ui/badge";
 import {
   ArrowLeft,
   Shield,
@@ -176,9 +176,9 @@ export default function PrivacyPolicy() {
                   1. Introduction
                 </h2>
                 <p className="text-gray-700 mb-4">
-                  This Privacy Policy describes how DevCourses ("we", "us", or
-                  "our") collects, uses, and discloses your personal information
-                  when you use our IT courses platform ("Service") and through
+                  This Privacy Policy describes how DevCourses (`we`, `us`, or
+                  `our`) collects, uses, and discloses your personal information
+                  when you use our IT courses platform (`Service`) and through
                   the use of Stripe for payment processing.
                 </p>
               </section>
@@ -192,23 +192,23 @@ export default function PrivacyPolicy() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
                   <li>
-                    <strong>Account Information:</strong> When you register on our site, 
-                    we collect information such as your name, email address, 
-                    and login credentials.
+                    <strong>Account Information:</strong> When you register, we
+                    collect your name, email address, and other account details.
                   </li>
                   <li>
-                    <strong>Payment Information:</strong> Payments are securely processed through Stripe.
-                     We do not store your full payment card details. However, 
-                     we may collect your billing address and transaction history for order tracking and support.
+                    <strong>Payment Information:</strong> For payment processing
+                    via Stripe, we collect payment card details (processed
+                    directly by Stripe), billing address, and transaction
+                    history.
                   </li>
                   <li>
-                    <strong>Course Activity:</strong> We monitor your engagement with the platform, 
-                    including course progress, completed lessons, and interaction with learning materials.
+                    <strong>Course Activity:</strong> We track your progress,
+                    completed lessons, and interactions with course materials.
                   </li>
                   <li>
-                    <strong>Technical Data:</strong> We collect technical information such as your IP address, 
-                    browser type, device data, 
-                    and usage patterns via cookies and similar technologies to enhance your experience and ensure platform security.
+                    <strong>Technical Data:</strong> IP address, browser type,
+                    device information, and usage data through cookies and
+                    similar technologies.
                   </li>
                 </ul>
               </section>
@@ -273,7 +273,7 @@ export default function PrivacyPolicy() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    View Stripe's Privacy Policy
+                    View Stripe`s Privacy Policy
                   </a>
                 </Button>
               </section>

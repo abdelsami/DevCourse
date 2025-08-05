@@ -12,7 +12,7 @@ import { Badge } from "@/components/ui/badge";
 import { Star, Shield, Lock, Loader2 } from "lucide-react";
 import Link from "next/link";
 import { createOrder } from "@/app/actions/checkout";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 
 interface CheckoutPageProps {
   course: {
@@ -24,7 +24,7 @@ interface CheckoutPageProps {
 }
 
 export default function CheckoutPageClient({ course }: CheckoutPageProps) {
-  const router = useRouter();
+  // const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [selectedPayment, setSelectedPayment] = useState("stripe");
